@@ -66,3 +66,20 @@ Exemplo:
 ```sh
 DATABASE_URL=postgres://user:password@localhost:5432/postgres
 ```# backend-teste
+## Variáveis de Ambiente
+
+Certifique-se de definir as seguintes variáveis de ambiente no arquivo `.env`:
+
+- `DB_USER`: O usuário do banco de dados PostgreSQL.
+- `DB_HOST`: O host do banco de dados PostgreSQL.
+- `DB_NAME`: O nome do banco de dados PostgreSQL.
+- `DB_PASS`: A senha do banco de dados PostgreSQL.
+- `DB_PORT`: A porta do banco de dados PostgreSQL.
+
+Exemplo:
+```sh
+DB_USER=postgres
+DB_HOST=db
+DB_NAME=postgres
+DB_PASS=root
+DB_PORT=5432
